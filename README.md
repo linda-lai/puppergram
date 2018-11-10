@@ -1,24 +1,15 @@
-# README
+# Puppergram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Author
+|[![Linda Lai](/app/assets/images/contributors-linda-lai-70x70.jpg)](https://github.com/linda-lai) | 
+|-----------|
+| Linda Lai |
 
-Things you may want to cover:
+## Background
+A  Ruby on Rails application created using Devise, Carrierwave and Bootstrap at a Rails Girls workshop in November 11th.
 
-* Ruby version
+https://guides.railsgirls.com/
 
-* System dependencies
+This was a fun opportunity to practice Git and reinforce my Rails learning, and experiment with Ruby gems, Bootstrap and rspec.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Lendr](/app/assets/readme/intro-lendr.png)](https://tranquil-reaches-18328.herokuapp.com) 
