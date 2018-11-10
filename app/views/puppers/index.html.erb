@@ -4,13 +4,12 @@
   <div class="row">
     <% group.compact.each do |pupper| %>
       <div class="col-md-4">
-        <%= image_tag pupper.picture_url, width: '100%' if pupper.picture.present? %>
+        <%= image_tag pupper.picture_url(:thumb) if pupper.picture.present? %>
         <h4><%= link_to pupper.name, pupper %></h4>
         <%= pupper.description %>
       </div>
     <% end %>
   </div>
 <% end %>
+</div>
 <br>
-
-<%= link_to 'New Pupper', new_pupper_path %>
