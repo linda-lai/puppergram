@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pupper.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pupper.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @pupper.picture %>
+</p>
+
+<%= link_to 'Edit', edit_pupper_path(@pupper) %> |
+<%= link_to 'Back', puppers_path %>

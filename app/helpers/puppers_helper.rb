@@ -1,0 +1,2 @@
+module PuppersHelper
+end
