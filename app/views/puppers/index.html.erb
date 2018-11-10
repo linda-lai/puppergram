@@ -17,7 +17,7 @@
       <tr>
         <td><%= pupper.name %></td>
         <td><%= pupper.description %></td>
-        <td><%= pupper.picture %></td>
+        <td><%= image_tag pupper.picture_url, width: '100%' if pupper.picture.present? %></td>
         <td><%= link_to 'Show', pupper %></td>
         <td><%= link_to 'Edit', edit_pupper_path(pupper) %></td>
         <td><%= link_to 'Destroy', pupper, method: :delete, data: { confirm: 'Are you sure?' } %></td>

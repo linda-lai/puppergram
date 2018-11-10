@@ -12,7 +12,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @pupper.picture %>
+  <%= image_tag(@pupper.picture_url, width: 600) if @pupper.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_pupper_path(@pupper) %> |
