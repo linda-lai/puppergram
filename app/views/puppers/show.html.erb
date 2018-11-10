@@ -1,30 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @pupper.name %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @pupper.description %>
-</p>
-
-<p>
-  <strong>Picture:</strong>
-  <%= image_tag(@pupper.picture_url, width: 600) if @pupper.picture.present? %>
-</p>
-
-<h3>Comments</h3>
-<% @comments.each do |comment| %>
-  <div>
-    <strong><%= comment.user_name %></strong>
-    <br>
-    <p><%= comment.body %></p>
-    <p><%= link_to 'Delete', comment_path(comment), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+<div class="row">
+  <div class="col-md-9">
+    <%= image_tag(@pupper.picture_url, width: '100%') if @pupper.picture.present? %>
   </div>
-<% end %>
-<%= render partial: 'comments/form', locals: { comment: @comment } %>
 
-<%= link_to 'Edit', edit_pupper_path(@pupper) %> |
-<%= link_to 'Back', puppers_path %>
+  <div class="col-md-3">
+    <p><b>Name: </b><%= @pupper.name %></p>
+    <p><b>Description: </b><%= @pupper.description %></p>
+    <p>
+      <%= link_to 'Edit', edit_pupper_path(@pupper) %> |
+      <%= link_to 'Destroy', @pupper, data: { confirm: 'Are you sure?' }, method: :delete %> |
+      <%= link_to 'Back', puppers_path %>
+    </p>
+  </div>
+</div>
