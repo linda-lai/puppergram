@@ -10,6 +10,8 @@ class PuppersController < ApplicationController
   # GET /puppers/1
   # GET /puppers/1.json
   def show
+    @comments = @pupper.comments.all
+    @comment = @pupper.comments.build
   end
 
   # GET /puppers/new

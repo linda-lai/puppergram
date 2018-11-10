@@ -18,12 +18,8 @@
 
   <div class="field">
     <%= form.label :body %>
-    <%= form.text_area :body %>
-  </div>
-
-  <div class="field">
-    <%= form.label :pupper_id %>
-    <%= form.number_field :pupper_id %>
+    <%= form.text_area :body, id: :comment_body %>
+    <%= form.hidden_field :pupper_id %>
   </div>
 
   <div class="actions">
