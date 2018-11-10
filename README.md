@@ -6,10 +6,16 @@
 | Linda Lai |
 
 ## Background
-A  Ruby on Rails application created using Devise, Carrierwave and Bootstrap at a Rails Girls workshop in November 11th.
+A Ruby on Rails application created using Devise, Carrierwave and Bootstrap at a Rails Girls workshop in November 2018, and an excellent practical application for my growing horde of pupper pictures.
 
 https://guides.railsgirls.com/
 
-This was a fun opportunity to practice Git and reinforce my Rails learning, and experiment with Ruby gems, Bootstrap and rspec.
+This was a fun opportunity to further reinforce my Rails learning, practice Git and experiment with new gems like Carrierwave, Bootstrap and Rspec.
 
-[![Lendr](/app/assets/readme/intro-lendr.png)](https://tranquil-reaches-18328.herokuapp.com) 
+### Desktop
+
+![Puppergram Homepage (Desktop)](/app/assets/images/desktop-homepage.png)
+
+![Puppergram Showpage (Desktop)](/app/assets/images/desktop-showpage.png)
+
+![Puppergram Showpage (Desktop)](/app/assets/images/desktop-about.png)
