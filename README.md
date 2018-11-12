@@ -10,12 +10,12 @@ A Ruby on Rails application created using Devise, Carrierwave and Bootstrap at a
 
 https://guides.railsgirls.com/
 
-This was a fun opportunity to further reinforce my Rails learning, practice Git and experiment with new gems like Carrierwave, Bootstrap and Rspec.
+This was a fun opportunity to further reinforce my Rails learning, practice Git and experiment with new gems and concepts like Carrierwave, Bootstrap and Rspec.
 
 ### Desktop
 
-![Puppergram Homepage (Desktop)](/app/assets/images/desktop-homepage.png)
+![Puppergram Homepage (Desktop)](/app/assets/images/desktop-home-page.png)
 
-![Puppergram Showpage (Desktop)](/app/assets/images/desktop-showpage.png)
+![Puppergram Showpage (Desktop)](/app/assets/images/desktop-show-page.png)
 
 ![Puppergram Showpage (Desktop)](/app/assets/images/desktop-about.png)
