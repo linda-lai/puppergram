@@ -1,6 +1,6 @@
 # Puppergram
+Pupper based Instgram clone written in Rails for practice at Rails Girls.
 
-## Author
 |[![Linda Lai](/app/assets/images/contributors-linda-lai-70x70.jpg)](https://github.com/linda-lai) | 
 |-----------|
 | Linda Lai |
